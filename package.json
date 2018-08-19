@@ -1,0 +1,15 @@
+{
+  "name": "postman-jenkins",
+  "version": "1.0.0",
+  "description": "project to store postman collection to run in jenkins",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-test": "newman run tests/reqresin.postman_collection.json"
+  },
+  "author": "chganeshch76",
+  "dependencies": {
+    "newman": "^4.0.2"
+  }
+}
